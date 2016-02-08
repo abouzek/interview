@@ -12,7 +12,6 @@
 		091E5E6F1B6FD1EB0010B3DF /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091E5E6E1B6FD1EB0010B3DF /* ContactDetailViewController.m */; };
 		091E5E721B6FD1EB0010B3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091E5E701B6FD1EB0010B3DF /* Main.storyboard */; };
 		091E5E771B6FD1EB0010B3DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091E5E751B6FD1EB0010B3DF /* LaunchScreen.xib */; };
-		091E5E831B6FD1EB0010B3DF /* InterviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 091E5E821B6FD1EB0010B3DF /* InterviewTests.m */; };
 		091E5E8E1B6FD2820010B3DF /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091E5E8D1B6FD2820010B3DF /* ContactListViewController.m */; };
 		091E5E911B6FD3830010B3DF /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 091E5E901B6FD3830010B3DF /* Contact.m */; };
 		09E0B89A1B71080E008604AA /* ContactsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E0B8991B71080E008604AA /* ContactsService.m */; };
@@ -39,8 +38,6 @@
 		091E5E711B6FD1EB0010B3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		091E5E761B6FD1EB0010B3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		091E5E7C1B6FD1EB0010B3DF /* InterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		091E5E811B6FD1EB0010B3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		091E5E821B6FD1EB0010B3DF /* InterviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterviewTests.m; sourceTree = "<group>"; };
 		091E5E8C1B6FD2820010B3DF /* ContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListViewController.h; sourceTree = "<group>"; };
 		091E5E8D1B6FD2820010B3DF /* ContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListViewController.m; sourceTree = "<group>"; };
 		091E5E8F1B6FD3830010B3DF /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
@@ -71,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				091E5E651B6FD1EB0010B3DF /* Interview */,
-				091E5E7F1B6FD1EB0010B3DF /* InterviewTests */,
 				091E5E641B6FD1EB0010B3DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,23 +106,6 @@
 			children = (
 				091E5E671B6FD1EB0010B3DF /* Info.plist */,
 				091E5E681B6FD1EB0010B3DF /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		091E5E7F1B6FD1EB0010B3DF /* InterviewTests */ = {
-			isa = PBXGroup;
-			children = (
-				091E5E821B6FD1EB0010B3DF /* InterviewTests.m */,
-				091E5E801B6FD1EB0010B3DF /* Supporting Files */,
-			);
-			path = InterviewTests;
-			sourceTree = "<group>";
-		};
-		091E5E801B6FD1EB0010B3DF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				091E5E811B6FD1EB0010B3DF /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,7 +222,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				091E5E831B6FD1EB0010B3DF /* InterviewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
