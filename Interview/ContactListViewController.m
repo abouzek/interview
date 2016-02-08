@@ -10,6 +10,7 @@
 #import "Contact.h"
 #import "ContactDetailViewController.h"
 #import "ContactsService.h"
+#import "ContactTableViewCell.h"
 
 @interface ContactListViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -23,6 +24,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+#warning - TODO: Set the title for this ViewController's navigation bar to be "Contacts"
     
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
@@ -57,13 +60,9 @@
     return 0;
 }
 
-
-static const NSUInteger CONTACT_CELL_LABEL_VIEW_TAG = 1;
-
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ContactCell"];
-#warning - TODO: Populate the UITableViewCell prototype (defined in Main.storyboard) with the data for the Contact at this row in the UITableView.
-#warning - TODO: Be sure to use the Contact's fullName method you defined in Contact.m
+    ContactTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ContactCell"];
+#warning - TODO: Populate the UITableViewCell prototype (layout in Main.storyboard) with the data for the appropriate Contact object (be sure to utilize the method you filled out in ContactTableViewCell)
     return cell;
 }
 

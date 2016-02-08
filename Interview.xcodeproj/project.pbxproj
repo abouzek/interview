@@ -14,6 +14,7 @@
 		091E5E771B6FD1EB0010B3DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091E5E751B6FD1EB0010B3DF /* LaunchScreen.xib */; };
 		091E5E8E1B6FD2820010B3DF /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091E5E8D1B6FD2820010B3DF /* ContactListViewController.m */; };
 		091E5E911B6FD3830010B3DF /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 091E5E901B6FD3830010B3DF /* Contact.m */; };
+		098C07D91C6925B2002845FF /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 098C07D81C6925B2002845FF /* ContactTableViewCell.m */; };
 		09E0B89A1B71080E008604AA /* ContactsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E0B8991B71080E008604AA /* ContactsService.m */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,8 @@
 		091E5E8D1B6FD2820010B3DF /* ContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListViewController.m; sourceTree = "<group>"; };
 		091E5E8F1B6FD3830010B3DF /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		091E5E901B6FD3830010B3DF /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		098C07D71C6925B2002845FF /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		098C07D81C6925B2002845FF /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
 		09E0B8981B71080E008604AA /* ContactsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsService.h; sourceTree = "<group>"; };
 		09E0B8991B71080E008604AA /* ContactsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,17 +89,19 @@
 			children = (
 				091E5E6A1B6FD1EB0010B3DF /* AppDelegate.h */,
 				091E5E6B1B6FD1EB0010B3DF /* AppDelegate.m */,
-				091E5E6D1B6FD1EB0010B3DF /* ContactDetailViewController.h */,
-				091E5E6E1B6FD1EB0010B3DF /* ContactDetailViewController.m */,
-				091E5E701B6FD1EB0010B3DF /* Main.storyboard */,
-				091E5E751B6FD1EB0010B3DF /* LaunchScreen.xib */,
-				091E5E661B6FD1EB0010B3DF /* Supporting Files */,
-				091E5E8C1B6FD2820010B3DF /* ContactListViewController.h */,
-				091E5E8D1B6FD2820010B3DF /* ContactListViewController.m */,
 				091E5E8F1B6FD3830010B3DF /* Contact.h */,
 				091E5E901B6FD3830010B3DF /* Contact.m */,
+				091E5E6D1B6FD1EB0010B3DF /* ContactDetailViewController.h */,
+				091E5E6E1B6FD1EB0010B3DF /* ContactDetailViewController.m */,
+				091E5E8C1B6FD2820010B3DF /* ContactListViewController.h */,
+				091E5E8D1B6FD2820010B3DF /* ContactListViewController.m */,
 				09E0B8981B71080E008604AA /* ContactsService.h */,
 				09E0B8991B71080E008604AA /* ContactsService.m */,
+				098C07D71C6925B2002845FF /* ContactTableViewCell.h */,
+				098C07D81C6925B2002845FF /* ContactTableViewCell.m */,
+				091E5E751B6FD1EB0010B3DF /* LaunchScreen.xib */,
+				091E5E701B6FD1EB0010B3DF /* Main.storyboard */,
+				091E5E661B6FD1EB0010B3DF /* Supporting Files */,
 			);
 			path = Interview;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 			files = (
 				09E0B89A1B71080E008604AA /* ContactsService.m in Sources */,
 				091E5E6F1B6FD1EB0010B3DF /* ContactDetailViewController.m in Sources */,
+				098C07D91C6925B2002845FF /* ContactTableViewCell.m in Sources */,
 				091E5E8E1B6FD2820010B3DF /* ContactListViewController.m in Sources */,
 				091E5E911B6FD3830010B3DF /* Contact.m in Sources */,
 				091E5E6C1B6FD1EB0010B3DF /* AppDelegate.m in Sources */,
