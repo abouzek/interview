@@ -1,5 +1,10 @@
 # Interview
-This Xcode project is a simple master -> detail view application which shows information about Contact objects. The first view shown is a list of the Contact objects. Upon selecting a row in the list of contacts, a detail view will be pushed on to the navigation stack which displays detailed information about the selected Contact object.
+This Xcode project is a 2 master -> detail views. 
+
+The view shown after pressing "Contacts" should be UITableView of Contact objects. These Contact objects are populated from a mock REST service denoted in the project. Upon selecting a row in the list of contacts, a detail view will be pushed on to the navigation stack which displays detailed information about the selected Contact object.
+
+The view shown after pressing "Fibonacci" should be a UITableView which displays the sequence of Fibonacci numbers, one per UITableView row. Scrolling the UITableView should be as efficient as possible.
+
 
 # Instructions
 - Clone this repo to your local machine.
