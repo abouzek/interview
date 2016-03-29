@@ -14,16 +14,10 @@
                          lastName:(NSString *)lastName
                       phoneNumber:(NSString *)phoneNumber
                           address:(NSString *)address {
-    if (self = [super init]) {
-        self.firstName = firstName;
-        self.lastName = lastName;
-        self.phoneNumber = phoneNumber;
-        self.address = address;
-    }
-    return self;
+    return nil;
 }
 
-+ (instancetype)contactFromDictionary:(NSDictionary *)dictionary {
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary {
     return nil;
 }
 

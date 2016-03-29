@@ -17,9 +17,4 @@
 
 
 @implementation ContactTableViewCell
-
-- (void)styleForContact:(Contact *)contact {
-#pragma mark - TODO: Populate the cell with the contact's full name
-}
-
 @end

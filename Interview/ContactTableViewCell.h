@@ -10,7 +10,4 @@
 #import "Contact.h"
 
 @interface ContactTableViewCell : UITableViewCell
-
-- (void)styleForContact:(Contact *)contact;
-
 @end

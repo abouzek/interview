@@ -19,7 +19,7 @@
 /**
  * Returns a Contact object from the NSDictionary which should have been parsed from JSON.
  */
-+ (instancetype)contactFromDictionary:(NSDictionary *)dictionary;
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 /**
  * Returns the contact's first name and last name together with a space separating them.
