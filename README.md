@@ -8,6 +8,5 @@ The view shown after pressing "Fibonacci" should be a UITableView which displays
 
 # Instructions
 - Clone this repo to your local machine.
-- Complete all items defined by a #warning directive. They should show up as compiler warnings in Xcode.
-- As you complete each item, delete the #warning directive line.
+- Implement the missing pieces of code to meet the descriptions above.
 - When done, ensure the project works as described. Then, commit the changes made to the project to the repository and push them to origin master.

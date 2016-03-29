@@ -24,12 +24,10 @@
 }
 
 + (instancetype)contactFromDictionary:(NSDictionary *)dictionary {
-#warning - TODO: Implement this method using initWithFirstName: lastName: phoneNumber: address:
     return nil;
 }
 
 - (NSString *)fullName {
-#warning - TODO: Return the contact's first name and last name together, separated by a space
     return nil;
 }
 

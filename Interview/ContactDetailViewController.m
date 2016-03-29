@@ -19,11 +19,4 @@
 
 
 @implementation ContactDetailViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-#warning - TODO: Populate the labels with the data for this ViewController's assigned Contact object
-}
-
 @end

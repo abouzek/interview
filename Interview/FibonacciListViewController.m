@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-#warning - TODO: Set the title for this ViewController's navigation bar to be "Fibonacci"
+    self.title = @"Fibonacci";
     
     self.tableView.dataSource = self;
 }
@@ -33,13 +33,11 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning - TODO: Return the max number of Fibonacci rows we can display
     return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-#warning - TODO: Return a UITableViewCell with a label which displays the Fibonacci number for this row
-    return [UITableViewCell new];
+    return nil;
 }
 
 

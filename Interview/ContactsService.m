@@ -32,9 +32,7 @@
  */
 
 -(void)getContactsWithCompletionBlock:(void(^)(NSArray *contacts))completionBlock {
-#warning - TODO: Make a GET request to http://www.mocky.io/v2/55c0d0632d3a3a4c10032c45
-#warning - TODO: Parse the returned JSON into an NSArray containing Contact objects (Contact has a convenience constructor to make this easier)
-#warning - TODO: Call completionBlock with the NSArray of Contact objects as an argument
+#warning - TODO: Call completionBlock with the NSArray of Contact objects as an argument. Fetch the data from the above URL.
 }
 
 @end

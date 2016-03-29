@@ -19,7 +19,7 @@
 @implementation ContactTableViewCell
 
 - (void)styleForContact:(Contact *)contact {
-#warning - TODO: Populate the cell's nameLabel with the Contact's full name (be sure to utilize the method you completed in the Contact class)
+#pragma mark - TODO: Populate the cell with the contact's full name
 }
 
 @end
