@@ -31,8 +31,4 @@
  *
  */
 
--(void)getContactsWithCompletionBlock:(void(^)(NSArray *contacts))completionBlock {
-#warning - TODO: Call completionBlock with the NSArray of Contact objects as an argument. Fetch the data from the above URL.
-}
-
 @end

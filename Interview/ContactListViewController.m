@@ -30,14 +30,13 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
-    [self setupContacts];
+    [self loadData];
 }
 
 
 #pragma mark - setup
 
-- (void)setupContacts {
-    ContactsService *contactsService = [ContactsService new];
+- (void)loadData {
 }
 
 

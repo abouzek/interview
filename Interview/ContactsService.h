@@ -10,6 +10,6 @@
 
 @interface ContactsService : NSObject
 
--(void)getContactsWithCompletionBlock:(void(^)(NSArray *contacts))completionBlock;
+// Add a method which will return Contact objects from a mock REST service
 
 @end
