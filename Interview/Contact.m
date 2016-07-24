@@ -8,21 +8,36 @@
 
 #import "Contact.h"
 
+static NSString * const kContactFirstNameKey = @"firstName";
+static NSString * const kContactLastNameKey = @"lastName";
+static NSString * const kContactPhoneNumberKey = @"phoneNumber";
+static NSString * const kContactAddressKey = @"address";
+
 @implementation Contact
 
 - (instancetype)initWithFirstName:(NSString *)firstName
                          lastName:(NSString *)lastName
                       phoneNumber:(NSString *)phoneNumber
                           address:(NSString *)address {
-    return nil;
+    self = [super init];
+    if (self) {
+        self.firstName = firstName;
+        self.lastName = lastName;
+        self.phoneNumber = phoneNumber;
+        self.address = address;
+    }
+    return self;
 }
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary {
-    return nil;
+    return [self initWithFirstName:dictionary[kContactFirstNameKey]
+                          lastName:dictionary[kContactLastNameKey]
+                       phoneNumber:dictionary[kContactPhoneNumberKey]
+                           address:dictionary[kContactAddressKey]];
 }
 
 - (NSString *)fullName {
-    return nil;
+    return [NSString stringWithFormat:@"%@ %@", _firstName, _lastName];
 }
 
 @end

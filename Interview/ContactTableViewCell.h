@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Contact.h"
 
+@class Contact;
 @interface ContactTableViewCell : UITableViewCell
+
+- (void)updateWithContact:(Contact *)contact;
+
 @end

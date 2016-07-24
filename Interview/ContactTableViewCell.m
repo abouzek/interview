@@ -7,6 +7,7 @@
 //
 
 #import "ContactTableViewCell.h"
+#import "Contact.h"
 
 @interface ContactTableViewCell ()
 
@@ -17,4 +18,9 @@
 
 
 @implementation ContactTableViewCell
+
+- (void)updateWithContact:(Contact *)contact {
+    self.nameLabel.text = contact.fullName;
+}
+
 @end
