@@ -19,4 +19,14 @@
 
 
 @implementation ContactDetailViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.firstNameLabel.text = _contact.firstName;
+    self.lastNameLabel.text = _contact.lastName;
+    self.phoneNumberLabel.text = _contact.phoneNumber;
+    self.addressLabel.text = _contact.address;
+}
+
 @end
